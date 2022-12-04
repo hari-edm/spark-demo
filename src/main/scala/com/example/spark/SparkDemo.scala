@@ -7,13 +7,13 @@ object SparkDemo {
   val logger = LoggerFactory.getLogger("SparkDemo")
 
   def main(args: Array[String]): Unit = {
+
     logger.info("Hello................")
+
     val spark = SparkSession.builder()
       .master("local[1]")
       .appName("SparkByExample")
-      .getOrCreate();
+      .getOrCreate()
 
   }
-
-
 }
