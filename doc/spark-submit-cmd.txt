@@ -1,0 +1,1 @@
+spark-submit --class com.example.spark.SparkDemo  --master local  --driver-memory 512M  --num-executors 1 /home/spark-user/spark-demo/target/scala-2.13/spark-demo-fatty-1.0.jar
